@@ -1,0 +1,139 @@
+body{
+	background-color: #e5eef1;
+    margin: 0px 0px 0px 0px;
+}
+h1{
+	color: coral;
+    text-align: center;
+    font-size: 75px;
+    font-family: -webkit-pictograph;
+    font-style: italic;
+    font-weight: bold;
+
+}  
+
+#play_div{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+   /* text-align: center;*/
+
+}
+
+#play,#sub_but,#solve_build,#reset{
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    color: red;
+    background-color: black;
+    width: 150px;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+
+
+input{
+    height: 35px;
+    width: 50px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px;
+}
+
+td {
+    text-align: center;
+    height: 35px;
+    width: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px;
+}
+td, th {
+    border-color: blue;
+    padding: 0px 0px 0px 0px ;
+    margin: 0px 0px 0px 0px;
+}
+
+
+table {
+    border: 5px solid black;
+    display: table;
+    border-collapse: collapse;
+    border-spacing: 5px;
+    
+}
+
+#r_pad{
+    /*right*/
+    padding-right: 1px;
+    border-right-color: black;
+    border-right-width: 4px;
+}
+
+#b_r_pad{
+    /*bottom-right*/
+    padding-right: 1px;
+    padding-bottom: 1px;
+    border-right-color: black;
+    border-right-width: 4px;
+    border-bottom-color: black; 
+    border-bottom-width: 4px;
+}
+
+#b_pad{
+    /*bottom*/
+   padding-bottom: 1px;
+
+   border-bottom-color: black;
+   border-bottom-width: 4px; 
+}
+#l_pad{
+    /*left*/
+    padding-left: 1px;
+    border-left-color: black;
+    border-left-width: 4px;
+}
+#t_l_pad{
+    /*top-left*/
+    padding-top: 1px;
+    padding-left: 1px;
+    border-top-color: black;
+    border-top-width: 4px;
+    border-left-color: black;
+    border-left-width: 4px;
+}
+#b_l_pad{
+    /*bottom-left*/
+    padding-bottom: 1px;
+    padding-left: 1px;
+    border-left-color: black;
+    border-left-width: 4px;
+    border-bottom-color: black;
+    border-bottom-width: 4px; 
+}
+
+#t_pad{
+    padding-top: 1px;
+    border-top-color: black;
+    border-top-width: 4px; 
+}
+#t_r_pad{
+    /*top-right*/
+    padding-top: 1px;
+    padding-right: 1px;
+    border-right-color: black;
+    border-right-width: 4px;
+    border-top-color: black;
+    border-top-width: 4px;
+}
